@@ -10,7 +10,7 @@
       "matchPackageNames": [
         "eclipse-temurin"
       ],
-      "allowedVersions": "11 || 17"
+      "allowedVersions": "11"
     }
   ]
 }
