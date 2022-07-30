@@ -3,5 +3,13 @@
   "extends": [
     "config:base",
     ":separateMultipleMajorReleases"
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "adoptium-java"
+      ],
+      "ignoreUnstable": true
+    }
   ]
 }
