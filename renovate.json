@@ -7,10 +7,10 @@
   ],
   "packageRules": [
     {
-      "matchDatasources": [
-        "adoptium-java"
+      "matchPackageNames": [
+        "eclipse-temurin"
       ],
-      "ignoreUnstable": true
+      "allowedVersions": "11, 17"
     }
   ]
 }
