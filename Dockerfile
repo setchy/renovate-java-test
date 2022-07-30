@@ -1,1 +1,1 @@
-FROM eclipse-temurin::16-jdk
+FROM eclipse-temurin:16-jdk
