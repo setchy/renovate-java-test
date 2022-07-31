@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.setchy</groupId>
+    <artifactId>renovate-java-test</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <name>renovate-java-test</name>
+    <description>Renovate Java Test</description>
+
+    <properties>
+        <netflix-dgs.version>3.12.0</netflix-dgs.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.netflix.graphql.dgs</groupId>
+                <artifactId>graphql-dgs-platform-dependencies</artifactId>
+                <!-- The DGS BOM/platform dependency. This is the only place you set version of DGS -->
+                <version>${netflix-dgs.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <!-- Mulesoft Example -->
+        <dependency>
+            <groupId>com.mule.connectors.commons</groupId>
+            <artifactId>commons-rest</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+    </dependencies>
+</project>
