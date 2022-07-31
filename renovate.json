@@ -24,7 +24,7 @@
   "hostRules": [
     {
       "hostType": "maven",
-      "baseUrl": "https://repository.mulesoft.org/releases/"
+      "matchHost": "https://repository.mulesoft.org/releases/"
     }
   ]
 }
