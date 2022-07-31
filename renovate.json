@@ -23,5 +23,11 @@
         "https://repository.mulesoft.org/releases/"
       ]
     }
+  ],
+  "hostRules": [
+    {
+      "hostType": "maven",
+      "baseUrl": "https://repository.mulesoft.org/releases/"
+    }
   ]
 }
