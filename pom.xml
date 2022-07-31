@@ -32,5 +32,10 @@
             <artifactId>commons-rest</artifactId>
             <version>1.1.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.mule.runtime</groupId>
+            <artifactId>mule</artifactId>
+            <version>4.0.0</version>
+        </dependency>
     </dependencies>
 </project>
