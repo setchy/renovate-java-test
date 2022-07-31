@@ -11,6 +11,17 @@
         "eclipse-temurin"
       ],
       "allowedVersions": "/^(11|17)(\\.[0-9]+)?(\\.[0-9]+)?/"
+    },
+    {
+      "description": "Mulesoft Libraries",
+      "matchPackagePatterns": [
+        "^com.mulesoft",
+        "^org.mule"
+      ],
+      "allowedVersions": "/^[0-9]+\\.[0-9]+\\.[0-9]+$/",
+      "registryUrls": [
+        "https://repository.mulesoft.org/releases/"
+      ]
     }
   ]
 }
