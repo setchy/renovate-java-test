@@ -7,8 +7,9 @@
   ],
   "packageRules": [
     {
-      "matchLanguages": [
-        "java"
+      "matchManagers": [
+        "maven",
+        "gradle"
       ],
       "registryUrls": [
         "https://foo"
