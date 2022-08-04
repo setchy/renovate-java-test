@@ -5,6 +5,9 @@
     ":prHourlyLimitNone",
     ":separateMultipleMajorReleases"
   ],
+  "java": {
+    "registryUrls": "https://foo",
+  },
   "packageRules": [
     {
       "matchPackageNames": [
