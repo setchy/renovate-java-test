@@ -10,6 +10,16 @@
       "https://foo"
     ]
   },
+  "maven": {
+    "registryUrls": [
+      "https://foo"
+    ]
+  },
+  "gradle": {
+    "registryUrls": [
+      "https://foo"
+    ]
+  },
   "packageRules": [
     {
       "matchPackageNames": [
