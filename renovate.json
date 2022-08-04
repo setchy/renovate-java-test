@@ -6,7 +6,9 @@
     ":separateMultipleMajorReleases"
   ],
   "java": {
-    "registryUrls": "https://foo",
+    "registryUrls": [
+      "https://foo"
+    ]
   },
   "packageRules": [
     {
