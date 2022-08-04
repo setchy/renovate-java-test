@@ -5,26 +5,10 @@
     ":prHourlyLimitNone",
     ":separateMultipleMajorReleases"
   ],
-  "java": {
-    "registryUrls": [
-      "https://foo"
-    ]
-  },
-  "maven": {
-    "registryUrls": [
-      "https://foo"
-    ]
-  },
-  "gradle": {
-    "registryUrls": [
-      "https://foo"
-    ]
-  },
   "packageRules": [
     {
-      "matchDatasources": [
-        "maven",
-        "gradle"
+      "matchLanguages": [
+        "java"
       ],
       "registryUrls": [
         "https://foo"
