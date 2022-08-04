@@ -22,6 +22,15 @@
   },
   "packageRules": [
     {
+      "matchDatasources": [
+        "maven",
+        "gradle"
+      ],
+      "registryUrls": [
+        "https://foo"
+      ]
+    },
+    {
       "matchPackageNames": [
         "eclipse-temurin"
       ],
