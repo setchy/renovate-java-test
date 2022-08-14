@@ -10,6 +10,7 @@
 
     <properties>
         <netflix-dgs.version>3.12.0</netflix-dgs.version>
+        <graphql-java.version>17.0</graphql-java.version>
     </properties>
 
     <dependencyManagement>
@@ -26,16 +27,10 @@
     </dependencyManagement>
 
     <dependencies>
-        <!-- Mulesoft Example -->
         <dependency>
-            <groupId>com.mule.connectors.commons</groupId>
-            <artifactId>commons-rest</artifactId>
-            <version>1.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mule.runtime</groupId>
-            <artifactId>mule</artifactId>
-            <version>4.0.0</version>
+            <groupId>com.graphql-java</groupId>
+            <artifactId>graphql-java</artifactId>
+            <version>${graphql-java.version}</version>
         </dependency>
     </dependencies>
 </project>
