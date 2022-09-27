@@ -15,7 +15,7 @@
       "allowedVersions": "/^[0-9]+(\\.[0-9]+){1,2}$/"
     },
     {
-        "matchDatasources": ['docker'],
+        "matchDatasources": ["docker"],
         "matchPackageNames": [
           "openjdk",
           "amazoncorretto"
@@ -23,7 +23,7 @@
         "allowedVersions": "/^(11|17|21)(\\.[0-9]+){0,2}/"
       },
       {
-        "matchDatasources": ['docker'],
+        "matchDatasources": ["docker"],
         "matchPackageNames": [
           "eclipse-temurin",
           "adoptopenjdk"
