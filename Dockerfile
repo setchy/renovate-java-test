@@ -6,13 +6,13 @@ FROM adoptopenjdk/openjdk14:alpine-jre
 
 # Eclipse Temurin examples
 FROM eclipse-temurin:17.0.3_7-jdk-alpine
-FROM eclipse-temurin:11.0.15_10-jre-alpine
+FROM eclipse-temurin:11.0.16_8-jre-alpine
 ## Major label only
 FROM eclipse-temurin:11
-FROM eclipse-temurin:11-jre
+FROM eclipse-temurin:11.0.16_8-jre
 ## Major label with compatability/platform
 FROM eclipse-temurin:11-alpine
-FROM eclipse-temurin:8-alpine
+FROM eclipse-temurin:11-alpine
 
 # Amazon Corretto examples
 FROM amazoncorretto:14
