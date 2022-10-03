@@ -25,10 +25,10 @@ FROM java:8
 FROM openjdk:11
 
 # renovate: datasource=adoptium-java depName=java
-ARG JAVA_JDK_VERSION=17.0.4+8
+ARG JAVA_JDK_VERSION=17.0.4+101
 RUN install-tool java-jdk
 
 
 # renovate: datasource=adoptium-java depName=java
-ARG JAVA_JDK_VERSION=11
+ARG JAVA_JDK_VERSION=17.0.4+101
 RUN install-tool java-jdk
