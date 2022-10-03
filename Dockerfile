@@ -30,5 +30,5 @@ RUN install-tool java-jdk
 
 
 # renovate: datasource=adoptium-java depName=java
-ARG JAVA_JDK_VERSION=11
+ARG JAVA_JDK_VERSION=11.0.16+101
 RUN install-tool java-jdk
