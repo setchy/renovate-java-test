@@ -10,7 +10,7 @@
 
     <properties>
         <netflix-dgs.version>3.12.0</netflix-dgs.version>
-        <graphql-java.version>17.0</graphql-java.version>
+        <graphql-java.version>17.4</graphql-java.version>
     </properties>
 
     <dependencyManagement>
