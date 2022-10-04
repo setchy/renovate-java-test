@@ -15,7 +15,7 @@ FROM eclipse-temurin:11-alpine
 FROM eclipse-temurin:8-alpine
 
 # Amazon Corretto examples
-FROM amazoncorretto:14
+FROM amazoncorretto:17.0.4
 
 # Deprecated Java examples
 FROM java:6
