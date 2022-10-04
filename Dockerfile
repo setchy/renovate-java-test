@@ -22,7 +22,7 @@ FROM java:6
 FROM java:8 
 
 # OpenJDK examples
-FROM openjdk:11
+FROM openjdk:11.0.16
 
 # renovate: datasource=adoptium-java depName=java
 ARG JAVA_JDK_VERSION=17.0.4+8
