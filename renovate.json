@@ -15,25 +15,20 @@
       "allowedVersions": "/^[0-9]+(\\.[0-9]+){1,2}$/"
     },
     {
+      "description": "Limit Java runtime versions to LTS releases. To receive all major releases add `javaLTSVersions` to the `ignorePresets` array.",
       "matchDatasources": [
-        "docker"
-      ],
-      "matchPackageNames": [
-        "openjdk",
-        "amazoncorretto"
-      ],
-      "allowedVersions": "/^(11|17|21)(\\.[0-9]+){0,2}/"
-    },
-    {
-      "matchDatasources": [
-        "docker"
+        "docker",
+        "adoptium-java"
       ],
       "matchPackageNames": [
         "eclipse-temurin",
-        "adoptopenjdk"
+        "amazoncorretto",
+        "adoptopenjdk",
+        "openjdk",
+        "java"
       ],
-      "versioning": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(_(?<build>\\d+))?(-(?<compatibility>.*))?$",
-      "allowedVersions": "/^(11|17|21)(\\.[0-9]+){0,2}/"
+      "versioning": "regex:^(?<major>\\d+)?(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?([\\._+](?<build>\\d+))?(-(?<compatibility>.*))?$",
+      "allowedVersions": "/^(?: 8|11|17|21|25|29)(?:\\.|\\-|$)/",
     }
   ]
 }
